@@ -1,7 +1,7 @@
 PATH
   remote: ../knoxframeworx
   specs:
-    knoxframeworx (0.0.1)
+    knoxframeworx (0.0.2)
       rack
 
 GEM
