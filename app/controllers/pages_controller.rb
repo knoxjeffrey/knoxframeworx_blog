@@ -7,4 +7,8 @@ class PagesController < Knoxframeworx::Controller
     "For example I can do cool things like handle get, post requests differently by examining REQUEST_METHOD"
   end
   
+  def exception
+    raise "What the hell? Maybe I could add more info to help you here..."
+  end
+  
 end
