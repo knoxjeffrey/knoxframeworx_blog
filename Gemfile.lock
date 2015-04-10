@@ -1,0 +1,16 @@
+PATH
+  remote: ../knoxframeworx
+  specs:
+    knoxframeworx (0.0.1)
+      rack
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack (1.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  knoxframeworx!
