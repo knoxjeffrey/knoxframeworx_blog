@@ -1,5 +1,9 @@
 class PagesController < Knoxframeworx::Controller
   
+  def index
+    "Testing controller for /pages path to automatically call index method. Clearly it works!"
+  end
+  
   def about
     "I'm Jeff and here's a crap load of env info:" + 
     "\n<pre>\n#{env}\n</pre>" +
